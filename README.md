@@ -28,7 +28,7 @@ You will place this id as the first argument to the filter.
 </h1>
 ```  
 __'The Classes'__  
-The are the classes you'll want to use to style the anchor element that will either wrap the heading text or the anchor that is positioned after the heading. If you aren't using any classes then use ``''`` in place of the class argument.  
+These are the classes you'll want to use to style the anchor element that will either wrap the heading text or the anchor that is positioned after the heading. If you aren't using any classes then use ``''`` in place of the class argument.  
 
 ```twig  
 {# passing classes #}
