@@ -28,7 +28,7 @@ You will place this id as the first argument to the filter.
 </h1>
 ```  
 __'The Classes'__  
-These are the classes you'll want to use to style the anchor element that will either wrap the heading text or the anchor that is positioned after the heading. If you aren't using any classes then use ``''`` in place of the class argument.  
+These are the classes you'll want to use to style the anchor element that will either wrap the heading text or the anchor that is positioned after the heading. If you aren't using any classes and will set more arguments later then use ``''`` in place of the class argument.  
 
 ```twig  
 {# passing classes #}
@@ -40,9 +40,16 @@ These are the classes you'll want to use to style the anchor element that will e
 ```twig  
 {# not passing any classes #}
 <h1 id="theID">  
-  {{ Your Heading|l2s('theID', '' ) }}
+  {{ Your Heading|l2s('theID' ) }}
 </h1>
-```  
+``` 
+
+```twig  
+{# not passing any classes but will set other arguments later #}
+<h1 id="theID">  
+  {{ Your Heading|l2s('theID', '', 'link text', ) }}
+</h1>
+```   
 
 __'The Link Text'__  
 If your anchor is not wrapping (see next option) then you'll want to either supply text used in the anchor tag. See 'Icon Usage' below for a complete example. This defaults to the word: ``Link``  
