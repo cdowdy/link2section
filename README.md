@@ -24,7 +24,7 @@ __At Minimum you need to supply an 'id'. Without an ID your regular heading will
 You will place this id as the first argument to the filter.  
 ```twig  
 <h1 id="theID">  
-  {{ Your Heading|l2s('theID') }}
+  {{ 'Your Heading'|l2s('theID') }}
 </h1>
 ```  
 __'The Classes'__  
@@ -33,21 +33,21 @@ These are the classes you'll want to use to style the anchor element that will e
 ```twig  
 {# passing classes #}
 <h1 id="theID">  
-  {{ Your Heading|l2s('theID', 'anchorStyles' ) }}
+  {{ 'Your Heading'|l2s('theID', 'anchorStyles' ) }}
 </h1>
 ```  
 
 ```twig  
 {# not passing any classes #}
 <h1 id="theID">  
-  {{ Your Heading|l2s('theID' ) }}
+  {{ 'Your Heading'|l2s('theID' ) }}
 </h1>
 ``` 
 
 ```twig  
 {# not passing any classes but will set other arguments later #}
 <h1 id="theID">  
-  {{ Your Heading|l2s('theID', '', 'link text', ) }}
+  {{ 'Your Heading'|l2s('theID', '', 'link text', ) }}
 </h1>
 ```   
 
@@ -56,7 +56,7 @@ If your anchor is not wrapping (see next option) then you'll want to either supp
 
 ```twig  
 <h1 id="theID">  
-  {{ Your Heading|l2s('theID', 'anchorStyles', 'Link' ) }}
+  {{ 'Your Heading'|l2s('theID', 'anchorStyles', 'Link' ) }}
 </h1>
 ```  
 
