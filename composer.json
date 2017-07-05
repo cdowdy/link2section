@@ -38,7 +38,9 @@
         "bolt-class": "Bolt\\Extension\\cdowdy\\Link2Section\\Link2SectionExtension",
         "bolt-icon": "bolt-icon.png",
         "bolt-screenshots": [
-            "screenshots/screenshot1.png"
+            "screenshots/l2s-non-wrapping-screen.png",
+            "screenshots/l2s-wrapping-screen.png",
+            "screenshots/l2s-wrapping-with-class-screen.png"
         ]
     }
 }
