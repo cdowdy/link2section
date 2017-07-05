@@ -36,7 +36,7 @@
     "extra": {
         "bolt-assets": "web",
         "bolt-class": "Bolt\\Extension\\cdowdy\\Link2Section\\Link2SectionExtension",
-        "bolt-icon": "bolt-icon.png",
+        "bolt-icon": "link2section-icon.png",
         "bolt-screenshots": [
             "screenshots/l2s-non-wrapping-screen.png",
             "screenshots/l2s-wrapping-screen.png",
